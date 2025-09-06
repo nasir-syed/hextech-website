@@ -42,7 +42,7 @@ const Section2 = ({ isInView }) => {
        <div className='pb-8'>
             <div className="w-full">
                 <motion.h1 
-                    className="fixed w-full text-[15vw] leading-[0.8] bottom-0 text-[#007fc2] text-center zen-dots-regular"
+                    className="fixed w-full mb-2 md:mb-0 text-[15vw] leading-[0.8] bottom-0 text-[#007fc2] text-center zen-dots-regular"
                     initial={{ opacity: 0, y: 10 }}
                     animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}
                     transition={{ 
