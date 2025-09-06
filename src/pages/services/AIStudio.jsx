@@ -163,7 +163,7 @@ const accordionData = [
             <div className="lg:hidden space-y-4 px-4 py-2">
               <div>
                 <TextAnimation delay={0.3}>
-                  <h1 className="text-4xl md:text-5xl font-medium text-[#007fc2] leading-tight">
+                  <h1 className="text-4xl md:text-5xl font-medium text-[#007fc2] leading-tight poppins-regular">
                     AI STUDIO
                   </h1>
                 </TextAnimation>

@@ -18,7 +18,7 @@ export default function MobileMenu({ open, setMenuOpen }) {
         if (element) {
           const y =
             element.getBoundingClientRect().top + window.scrollY - navbarHeight;
-          window.scrollTo({ top: y, behavior: "smooth" });
+          window.scrollTo({ top: y});
         }
       }
 
@@ -27,6 +27,7 @@ export default function MobileMenu({ open, setMenuOpen }) {
     [navigate, location, navbarHeight, setMenuOpen]
   );
 
+  
   const isOnHome = location.pathname === "/";
 
   return (
