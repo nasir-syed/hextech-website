@@ -27,7 +27,7 @@ const sampleServices = [
 
 export default function Services() {
   return (
-    <div className="w-screen min-h-screen relative md:mb-[10%] flex flex-col items-center justify-start px-6 py-8">
+    <div className="w-screen min-h-screen relative mt-[35%] md:mt-0 md:mb-[10%] flex flex-col items-center justify-start px-6 py-8">
       <div className="text-center max-w-[95%] mx-auto">
         <TextAnimation>
           <h1 className="text-2xl sm:text-5xl md:text-7xl font-bold text-[#007fc2] poppins-semibold mb-6 leading-tight">
