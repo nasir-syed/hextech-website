@@ -54,7 +54,7 @@ export default function LoadingAnimation ({ onLoadingComplete, duration = 800 })
             </div>
             <div className="text-right">
               <span className="text-[#007fc2] zen-dots-regular text-xl">
-                hextech
+                HEXTECH
               </span>
             </div>
           </div>

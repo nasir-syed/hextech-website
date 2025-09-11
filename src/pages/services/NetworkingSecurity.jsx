@@ -9,6 +9,7 @@ import TextAnimation from '../../components/TextAnimation';
 import FakeGlassSurface from '../../components/FakeGlassSurface'
 import Lenis from 'lenis/react'
 import LoadingAnimation from '../../components/LoadingAnimation';
+import Contact from '../../sections/Contact'
 
 export default function NetworkingSecurity() {
   const [lineAnimation, setLineAnimation] = useState(false);
@@ -215,6 +216,8 @@ export default function NetworkingSecurity() {
             {/* some spacing before footer */}
             <div className="h-32"></div>
           </div>
+
+          <Contact/>
 
           <div className="relative z-80">
           <Footer />
