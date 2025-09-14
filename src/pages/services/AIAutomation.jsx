@@ -15,27 +15,27 @@ export default function AIAutomation() {
   const [loading, setLoading] = useState(true);
 
   const accordionData = [
-  {
-    title: "AI-POWERED WORKFLOWS",
-    description: "Transform your business operations with intelligent automation that learns and adapts. We design custom AI workflows that streamline complex processes, reduce manual tasks, and make data-driven decisions automatically, increasing efficiency while minimizing human error and operational costs."
-  },
-  {
-    title: "PROCESS AUTOMATION",
-    description: "Automate repetitive tasks and optimize business processes with smart automation solutions. From document processing to data entry and report generation, we implement robust automation systems that free up your team's time for strategic work while ensuring consistency and accuracy."
-  },
-  {
-    title: "NATURAL LANGUAGE PROCESSING",
-    description: "Unlock the power of human language with advanced NLP solutions that understand, analyze, and generate text. Our systems can process documents, extract insights from unstructured data, perform sentiment analysis, and enable intelligent content creation to enhance your business intelligence."
-  },
-  {
-    title: "AI CHATBOTS",
-    description: "Deploy intelligent conversational agents that provide 24/7 customer support and engagement. Our AI chatbots understand context, learn from interactions, and can handle complex queries while seamlessly escalating to human agents when needed, improving customer satisfaction and reducing support costs."
-  },
-  {
-    title: "CRM WORKFLOW AUTOMATION",
-    description: "Supercharge your customer relationship management with AI-driven automation. We create intelligent CRM workflows that automatically score leads, personalize communications, track customer interactions, and predict sales opportunities, helping you nurture relationships and close deals more effectively."
-  }
-];
+    {
+      title: "Customer Support Automation",
+      description: " Reduce support costs and response times with AI that manages emails, tickets, and helpdesk queries. Free up your team to focus on complex issues while customers get faster, more consistent service 24/7 without extra staffing."
+    },
+    {
+      title: "CRM Automation",
+      description: "Stop wasting time on manual CRM updates. Our AI handles data entry, lead scoring, and follow-ups automatically, keeping your pipeline clean and accurate while helping your sales team close more deals with less effort."
+    },
+    {
+      title: "AI Chatbots",
+      description: "Never miss a customer again. AI-powered chatbots engage visitors instantly, answer FAQs, and capture leads around the clock. Provide quick, reliable support while freeing your staff to focus on higher-value tasks."
+    },
+    {
+      title: "AI Voice Bots",
+      description: "Handle customer calls without extra staff. AI voice bots manage bookings, reminders, and routine questions with natural speech, delivering professional service that saves time, reduces costs, and scales as your business grows."
+    },
+    {
+      title: "Custom AI Workflows",
+      description: "Every business runs differently. We design custom AI workflows that automate repetitive tasks, connect your apps, and simplify operations. Save time, reduce errors, and keep your team focused on growth instead of manual work."
+    }
+  ];
 
   const technologies = ["Python", "OpenAI API", "LangChain", "TensorFlow", "PyTorch", "Scikit-learn", "n8n", "Zapier"]
 
@@ -65,13 +65,13 @@ export default function AIAutomation() {
 
         <div className="relative z-10 p-0">
           <TopNav />
-          
+
           <div className="w-full h-[1px] mt-23 px-4 bg-transparent relative overflow-hidden">
             <motion.div
               initial={{ scaleX: 0 }}
               animate={{ scaleX: lineAnimation ? 1 : 0 }}
-              transition={{ 
-                duration: 1.2, 
+              transition={{
+                duration: 1.2,
                 ease: [0.25, 0.46, 0.45, 0.94],
               }}
               className="h-full bg-[#007fc2] origin-center"
@@ -94,7 +94,7 @@ export default function AIAutomation() {
                     spinDuration={20}
                     className="w-[500px] h-[500px] xl:w-[600px] xl:h-[600px]"
                     textSize='text-7xl xl:text-8xl'
-                  />                                      
+                  />
                 </motion.div>
               </div>
 
@@ -104,8 +104,8 @@ export default function AIAutomation() {
               >
                 <div className="prose prose-lg max-w-none">
                   <TextAnimation delay={0.8}>
-                    <p className="text-[#007fc2]/80 text-lg poppins-regular leading-relaxed mb-8">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    <p className="text-white text-lg poppins-regular leading-relaxed mb-8">
+                      AI Automation empowers your business to scale effortlessly. From automating daily processes to delivering faster customer service, our solutions boost productivity and unlock new opportunities. With intelligent workflows tailored to your needs, you gain the agility to grow your business without increasing costs or complexity.
                     </p>
                   </TextAnimation>
                 </div>
@@ -126,10 +126,10 @@ export default function AIAutomation() {
                           key={tech}
                           initial={{ opacity: 0, scale: 0.8 }}
                           animate={{ opacity: 1, scale: 1 }}
-                          transition={{ 
-                            delay: 0.3 + (index * 0.03), 
-                            duration: 0.3, 
-                            ease: "easeOut" 
+                          transition={{
+                            delay: 0.3 + (index * 0.03),
+                            duration: 0.3,
+                            ease: "easeOut"
                           }}
                         >
                           <FakeGlassSurface className="px-3 py-1">
@@ -144,13 +144,13 @@ export default function AIAutomation() {
                 )}
 
                 <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: 1.2 }}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8, delay: 1.2 }}
                 >
-                  <Accordion accordionData={accordionData}/>
+                  <Accordion accordionData={accordionData} />
                 </motion.div>
-                  
+
               </motion.div>
             </div>
 
@@ -167,7 +167,7 @@ export default function AIAutomation() {
               <div>
                 <TextAnimation delay={0.5}>
                   <p className="text-white poppins-regular text-md">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    AI Automation empowers your business to scale effortlessly. From automating daily processes to delivering faster customer service, our solutions boost productivity and unlock new opportunities. With intelligent workflows tailored to your needs, you gain the agility to grow your business without increasing costs or complexity.
                   </p>
                 </TextAnimation>
               </div>
@@ -188,10 +188,10 @@ export default function AIAutomation() {
                         key={tech}
                         initial={{ opacity: 0, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
-                        transition={{ 
-                          delay: 0.3 + (index * 0.03), 
-                          duration: 0.3, 
-                          ease: "easeOut" 
+                        transition={{
+                          delay: 0.3 + (index * 0.03),
+                          duration: 0.3,
+                          ease: "easeOut"
                         }}
                       >
                         <FakeGlassSurface className="px-3 py-1">
@@ -206,12 +206,12 @@ export default function AIAutomation() {
               )}
 
               <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.9 }}
-              className="p-0 m-0 flex justify-start items-start w-full"
-            >
-                <Accordion accordionData={accordionData}/>
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.9 }}
+                className="p-0 m-0 flex justify-start items-start w-full"
+              >
+                <Accordion accordionData={accordionData} />
               </motion.div>
 
             </div>
@@ -221,7 +221,7 @@ export default function AIAutomation() {
           </div>
 
           <div className="relative z-80">
-          <Footer />
+            <Footer />
           </div>
         </div>
       </Lenis>

@@ -42,7 +42,7 @@ const accordionData = [
   }
 ];
 
-  const technologies = ["Generative AI", "Image AI", "Video AI"]
+  const technologies = ["Generative AI", "Image AI", "Video AI", "VEO 3", "Midjourney", "ChatGPT", "DALL·E", "Nanobanana", "Higgsfield"];
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -110,7 +110,7 @@ const accordionData = [
                 <div className="prose prose-lg max-w-none">
                   <TextAnimation delay={0.8}>
                     <p className="text-white text-lg poppins-regular leading-relaxed mb-8">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                      AI Studio transforms the way businesses create content with powerful generative AI.<br></br>From images and videos to branded assets and campaigns, we deliver high-quality, customized media at scale helping you stand out, save time, and connect with your audience more effectively.
                     </p>
                   </TextAnimation>
                 </div>
@@ -172,7 +172,7 @@ const accordionData = [
               <div>
                 <TextAnimation delay={0.5}>
                   <p className="text-white poppins-regular text-md">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                     AI Studio transforms the way businesses create content with powerful generative AI.<br></br>From images and videos to branded assets and campaigns, we deliver high-quality, customized media at scale helping you stand out, save time, and connect with your audience more effectively.
                   </p>
                 </TextAnimation>
               </div>

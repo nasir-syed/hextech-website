@@ -32,10 +32,6 @@ export default function MobileDevelopment() {
     description: "Transform user experiences with AI-powered design automation that creates intuitive, adaptive interfaces. Our machine learning algorithms analyze user behavior patterns to generate personalized UI components, optimize navigation flows, and deliver interfaces that evolve based on real user interactions and preferences."
   },
   {
-    title: "APP STORE OPTIMIZATION",
-    description: "Dominate app store rankings with our comprehensive AI-driven optimization suite. Advanced algorithms continuously monitor market trends, automate A/B testing of store assets, optimize keywords in real-time, and provide predictive insights to maximize your app's discoverability and conversion rates."
-  },
-  {
     title: "MOBILE ANALYTICS",
     description: "Unlock powerful insights through next-generation AI analytics that go beyond traditional metrics. Our automated intelligence platform predicts user behavior, identifies revenue opportunities, detects performance anomalies in real-time, and provides actionable recommendations to boost engagement and retention."
   }
@@ -109,7 +105,7 @@ export default function MobileDevelopment() {
                 <div className="prose prose-lg max-w-none">
                   <TextAnimation delay={0.8}>
                     <p className="text-white text-lg poppins-regular leading-relaxed mb-8">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                     We design and build mobile apps that are fast, secure, and user-friendly. From business management tools to customer-facing apps, every solution is optimized for iOS and Android, ensuring your business connects with customers anywhere while improving efficiency and unlocking new growth opportunities.
                     </p>
                   </TextAnimation>
                 </div>
@@ -171,7 +167,7 @@ export default function MobileDevelopment() {
               <div>
                 <TextAnimation delay={0.5}>
                   <p className="text-white poppins-regular text-md">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    We design and build mobile apps that are fast, secure, and user-friendly. From business management tools to customer-facing apps, every solution is optimized for iOS and Android, ensuring your business connects with customers anywhere while improving efficiency and unlocking new growth opportunities.
                   </p>
                 </TextAnimation>
               </div>

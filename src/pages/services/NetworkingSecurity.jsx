@@ -33,7 +33,7 @@ export default function NetworkingSecurity() {
   }
 ];
 
-  const technologies = ["React Native", "Flutter", "Swift", "Kotlin", "Firebase", "SQLite", "Redux", "Expo"]
+  const technologies = ["CCTV Solutions", "Access Control Systems", "IP Phone (PABX)", "AZAN/ADAN Systems", "Fire Alarm Integration", "Structured Cabling", "Network Switches & Routers"]
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -101,7 +101,7 @@ export default function NetworkingSecurity() {
                 <div className="prose prose-lg max-w-none">
                   <TextAnimation delay={0.8}>
                     <p className="text-white text-lg poppins-regular leading-relaxed mb-8">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                      At HexTech, we provide SMEs with smart networking and security solutions that combine reliability, scalability, and protection. From CCTV surveillance to WiFi, access control, and robust computer networking, our systems are designed to secure operations, boost efficiency, and keep your business confidently connected in today’s fast-evolving digital world.
                     </p>
                   </TextAnimation>
                 </div>
@@ -163,7 +163,7 @@ export default function NetworkingSecurity() {
               <div>
                 <TextAnimation delay={0.5}>
                   <p className="text-white poppins-regular text-md">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    At HexTech, we provide SMEs with smart networking and security solutions that combine reliability, scalability, and protection. From CCTV surveillance to WiFi, access control, and robust computer networking, our systems are designed to secure operations, boost efficiency, and keep your business confidently connected in today’s fast-evolving digital world.
                   </p>
                 </TextAnimation>
               </div>
