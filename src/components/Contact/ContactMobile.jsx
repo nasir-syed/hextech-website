@@ -31,7 +31,7 @@ export default function ContactMobile() {
     setSubmitStatus(null);
 
     try {
-      const response = await fetch('http://localhost:3001/api/contact', { // change this address for hosting
+      const response = await fetch('https://hextech-website.vercel.app/api/contact', { // change this address for hosting
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

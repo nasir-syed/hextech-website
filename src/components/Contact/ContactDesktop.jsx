@@ -32,7 +32,7 @@ export default function ContactDesktop() {
     setSubmitStatus(null);
 
     try {
-      const response = await fetch('http://localhost:3001/api/contact', { // change this address for
+      const response = await fetch('https://hextech-website.vercel.app/api/contact', { // change this address for
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
