@@ -1,7 +1,7 @@
-module.exports = async (req, res) => {
+export default async function handler(req, res) {
   return res.status(200).json({
     success: true,
     message: 'HexTech Contact API is running',
-    timestamp: new Date().toISOString()
+    timestamp: new Date().toISOString(),
   });
-};
+}
