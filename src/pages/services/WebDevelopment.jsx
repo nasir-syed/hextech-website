@@ -9,6 +9,7 @@ import TextAnimation from '../../components/TextAnimation';
 import FakeGlassSurface from '../../components/FakeGlassSurface'
 import Lenis from 'lenis/react'
 import LoadingAnimation from '../../components/LoadingAnimation';
+import Contact from '../../sections/Contact';
 
 export default function WebDevelopment() {
   const [lineAnimation, setLineAnimation] = useState(false);
@@ -69,6 +70,15 @@ export default function WebDevelopment() {
 
         <div className="relative z-10 p-0">
           <TopNav />
+{/* 
+          <div className="w-full flex mt-24 justify-end items-center px-6 ml-auto mb-4">
+            <Link to="/services/ai-automation">
+              <button className="flex items-center gap-2 text-[#007fc2] hover:text-[#00649a] cursor-pointer transition">
+                <FaArrowRight className="text-3xl" />
+              </button>
+            </Link>
+          </div> */}
+
           
           <div className="w-full h-[1px] mt-23 px-4 bg-transparent relative overflow-hidden">
             <motion.div
@@ -223,6 +233,8 @@ export default function WebDevelopment() {
             {/* some spacing before footer */}
             <div className="h-32"></div>
           </div>
+
+          <Contact/>
 
           <div className="relative z-80">
           <Footer />

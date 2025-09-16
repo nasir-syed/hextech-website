@@ -7,8 +7,9 @@ import Footer from '../../sections/Footer';
 import CircularText from '../../components/CircularText'
 import TextAnimation from '../../components/TextAnimation';
 import FakeGlassSurface from '../../components/FakeGlassSurface'
-import Lenis from 'lenis/react'
+import Lenis from 'lenis/react';
 import LoadingAnimation from '../../components/LoadingAnimation';
+import Contact from '../../sections/Contact';
 
 export default function MobileDevelopment() {
   const [lineAnimation, setLineAnimation] = useState(false);
@@ -219,6 +220,8 @@ export default function MobileDevelopment() {
             {/* some spacing before footer */}
             <div className="h-32"></div>
           </div>
+
+          <Contact/>
 
           <div className="relative z-80">
           <Footer />
