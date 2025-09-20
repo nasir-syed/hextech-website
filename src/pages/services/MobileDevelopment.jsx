@@ -10,6 +10,8 @@ import FakeGlassSurface from '../../components/FakeGlassSurface'
 import Lenis from 'lenis/react';
 import LoadingAnimation from '../../components/LoadingAnimation';
 import Contact from '../../sections/Contact';
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function MobileDevelopment() {
   const [lineAnimation, setLineAnimation] = useState(false);
@@ -67,7 +69,21 @@ export default function MobileDevelopment() {
         <div className="relative z-10 p-0">
           <TopNav />
           
-          <div className="w-full h-[1px] mt-23 px-4 bg-transparent relative overflow-hidden">
+         <div className="w-full flex justify-between mt-24 items-center px-4 mb-4">
+            <Link to="/services/web-development">
+              <button className="flex items-center gap-2 text-[#007fc2] transition">
+                <FaArrowLeft className="text-xl md:text-1xl" />
+              </button>
+            </Link>
+
+            <Link to="/services/networking-security">
+              <button className="flex items-center gap-2 text-[#007fc2] transition">
+                <FaArrowRight className="text-xl md:text-1xl" />
+              </button>
+            </Link>
+          </div> 
+          
+          <div className="w-full h-[1px] px-4 bg-transparent relative overflow-hidden">
             <motion.div
               initial={{ scaleX: 0 }}
               animate={{ scaleX: lineAnimation ? 1 : 0 }}

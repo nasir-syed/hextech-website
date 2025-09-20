@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import TopNav from '../../sections/TopNav';
 import Accordion from '../../components/Accordion';
 import Beams from '../../components/Beams';
@@ -70,17 +72,22 @@ export default function WebDevelopment() {
 
         <div className="relative z-10 p-0">
           <TopNav />
-{/* 
-          <div className="w-full flex mt-24 justify-end items-center px-6 ml-auto mb-4">
-            <Link to="/services/ai-automation">
-              <button className="flex items-center gap-2 text-[#007fc2] hover:text-[#00649a] cursor-pointer transition">
-                <FaArrowRight className="text-3xl" />
+
+          <div className="w-full flex justify-between mt-24 items-center px-4 mb-4">
+            <Link to="/services/ai-studio">
+              <button className="flex items-center gap-2 text-[#007fc2] transition">
+                <FaArrowLeft className="text-xl md:text-1xl" />
               </button>
             </Link>
-          </div> */}
 
-          
-          <div className="w-full h-[1px] mt-23 px-4 bg-transparent relative overflow-hidden">
+            <Link to="/services/ai-automation">
+              <button className="flex items-center gap-2 text-[#007fc2] transition">
+                <FaArrowRight className="text-xl md:text-1xl" />
+              </button>
+            </Link>
+          </div> 
+
+          <div className="w-full h-[1px] px-4 bg-transparent relative overflow-hidden">
             <motion.div
               initial={{ scaleX: 0 }}
               animate={{ scaleX: lineAnimation ? 1 : 0 }}
