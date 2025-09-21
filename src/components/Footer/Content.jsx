@@ -74,7 +74,7 @@ const Nav = ({ isInView }) => {
                 >
                     <h3 className='mb-3 text-[#0075b3] opacity-60 poppins-regular-italic text-md'>Talk</h3>
                     <p className='poppins-regular text-sm'>info@hextech.ae</p>
-                    <p className='poppins-regular text-sm'>+971 50 12345657</p>
+                    <p className='poppins-regular text-sm'>+971 50 829 8384</p>
                 </motion.div>
                 <motion.div 
                     className='flex flex-col gap-2'
